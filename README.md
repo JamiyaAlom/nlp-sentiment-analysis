@@ -115,7 +115,7 @@ Good acting, but a bit predictable.
 
 📊 **Bar Plot**: Average Emotion Distribution (anger, joy, optimism, sadness).
 
-<img src="images/emotion_bar.png" alt="Emotion Plot" width="200"/>
+<img src="images/emotion_bar.png" alt="Emotion Plot" width="400"/>
 
 
 📉 **Line Plot**: Sentiment Distribution on batch analysis(% positive vs negative).
