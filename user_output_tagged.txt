@@ -1,0 +1,246 @@
+Original Review: Wow... Loved this place.
+Cleaned Review: wow loved this place
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.27%, Joy: 95.79%, Optimism: 1.57%, Sadness: 1.37%
+------------------------------------------------------------
+Original Review: Crust is not good.
+Cleaned Review: crust isnot good
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 54.23%, Joy: 2.16%, Optimism: 1.53%, Sadness: 42.08%
+------------------------------------------------------------
+Original Review: Not tasty and the texture was just nasty.
+Cleaned Review: not tasty and the texture was just nasty
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 91.77%, Joy: 1.76%, Optimism: 0.56%, Sadness: 5.91%
+------------------------------------------------------------
+Original Review: Stopped by during the late May bank holiday off Rick Steve recommendation and loved it.
+Cleaned Review: stopped by during the late may bank holiday off rick steve recommendation and loved it
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 0.82%, Joy: 95.88%, Optimism: 1.91%, Sadness: 1.39%
+------------------------------------------------------------
+Original Review: The selection on the menu was great and so were the prices.
+Cleaned Review: the selection on the menu was great and so were the prices
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 2.57%, Joy: 93.18%, Optimism: 3.27%, Sadness: 0.98%
+------------------------------------------------------------
+Original Review: Now I am getting angry and I want my damn pho.
+Cleaned Review: now i am getting angry and i want my damn pho
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 98.27%, Joy: 0.51%, Optimism: 0.77%, Sadness: 0.45%
+------------------------------------------------------------
+Original Review: Honeslty it didn't taste THAT fresh.)
+Cleaned Review: honeslty it didnot taste that fresh
+Sentiment: Negative
+Dominant Emotion: sadness
+Emotion Scores -> Anger: 23.48%, Joy: 5.77%, Optimism: 1.2%, Sadness: 69.55%
+------------------------------------------------------------
+Original Review: The potatoes were like rubber and you could tell they had been made up ahead of time being kept under a warmer.
+Cleaned Review: the potatoes were like rubber and you could tell they had been made up ahead of time being kept under a warmer
+Sentiment: Negative
+Dominant Emotion: optimism
+Emotion Scores -> Anger: 10.19%, Joy: 26.22%, Optimism: 47.23%, Sadness: 16.36%
+------------------------------------------------------------
+Original Review: The fries were great too.
+Cleaned Review: the fries were great too
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 2.58%, Joy: 93.72%, Optimism: 2.54%, Sadness: 1.16%
+------------------------------------------------------------
+Original Review: A great touch.
+Cleaned Review: a great touch
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.8%, Joy: 91.6%, Optimism: 4.77%, Sadness: 1.83%
+------------------------------------------------------------
+Original Review: Service was very prompt.
+Cleaned Review: service was very prompt
+Sentiment: Positive
+Dominant Emotion: anger
+Emotion Scores -> Anger: 33.62%, Joy: 33.39%, Optimism: 23.16%, Sadness: 9.83%
+------------------------------------------------------------
+Original Review: Would not go back.
+Cleaned Review: wouldnot go back
+Sentiment: Negative
+Dominant Emotion: sadness
+Emotion Scores -> Anger: 43.01%, Joy: 1.72%, Optimism: 11.03%, Sadness: 44.24%
+------------------------------------------------------------
+Original Review: The cashier had no care what so ever on what I had to say it still ended up being wayyy overpriced.
+Cleaned Review: the cashier had no care what so ever on what i had to say it still ended up being wayyy overpriced
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 96.44%, Joy: 0.46%, Optimism: 0.68%, Sadness: 2.42%
+------------------------------------------------------------
+Original Review: I tried the Cape Cod ravoli, chicken, with cranberry...mmmm!
+Cleaned Review: i tried the cape cod ravoli chicken with cranberrymmmm
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 3.12%, Joy: 90.46%, Optimism: 3.77%, Sadness: 2.65%
+------------------------------------------------------------
+Original Review: I was disgusted because I was pretty sure that was human hair.
+Cleaned Review: i was disgusted because i was pretty sure that was human hair
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 89.54%, Joy: 1.61%, Optimism: 1.21%, Sadness: 7.64%
+------------------------------------------------------------
+Original Review: I was shocked because no signs indicate cash only.
+Cleaned Review: i was shocked because no signs indicate cash only
+Sentiment: Negative
+Dominant Emotion: sadness
+Emotion Scores -> Anger: 26.48%, Joy: 10.52%, Optimism: 5.5%, Sadness: 57.5%
+------------------------------------------------------------
+Original Review: Highly recommended.
+Cleaned Review: highly recommended
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 11.7%, Joy: 47.81%, Optimism: 33.46%, Sadness: 7.04%
+------------------------------------------------------------
+Original Review: Waitress was a little slow in service.
+Cleaned Review: waitress was a little slow in service
+Sentiment: Positive
+Dominant Emotion: anger
+Emotion Scores -> Anger: 74.79%, Joy: 1.27%, Optimism: 1.08%, Sadness: 22.85%
+------------------------------------------------------------
+Original Review: This place is not worth your time, let alone Vegas.
+Cleaned Review: this place isnot worth your time let alone vegas
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 92.48%, Joy: 0.74%, Optimism: 1.23%, Sadness: 5.55%
+------------------------------------------------------------
+Original Review: did not like at all.
+Cleaned Review: didnot like at all
+Sentiment: Negative
+Dominant Emotion: sadness
+Emotion Scores -> Anger: 39.56%, Joy: 4.08%, Optimism: 1.69%, Sadness: 54.66%
+------------------------------------------------------------
+Original Review: The Burrittos Blah!
+Cleaned Review: the burrittos blah
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 92.29%, Joy: 2.55%, Optimism: 0.56%, Sadness: 4.6%
+------------------------------------------------------------
+Original Review: The food, amazing.
+Cleaned Review: the food amazing
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 3.23%, Joy: 93.26%, Optimism: 2.14%, Sadness: 1.36%
+------------------------------------------------------------
+Original Review: Service is also cute.
+Cleaned Review: service is also cute
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.59%, Joy: 92.57%, Optimism: 2.26%, Sadness: 3.58%
+------------------------------------------------------------
+Original Review: I could care less... The interior is just beautiful.
+Cleaned Review: i could care less the interior is just beautiful
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 2.08%, Joy: 92.05%, Optimism: 3.38%, Sadness: 2.5%
+------------------------------------------------------------
+Original Review: So they performed.
+Cleaned Review: so they performed
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 2.74%, Joy: 90.5%, Optimism: 4.31%, Sadness: 2.44%
+------------------------------------------------------------
+Original Review: That's right....the red velvet cake.....ohhh this stuff is so good.
+Cleaned Review: thats rightthe red velvet cakeohhh this stuff is so good
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.45%, Joy: 96.39%, Optimism: 1.39%, Sadness: 0.76%
+------------------------------------------------------------
+Original Review: - They never brought a salad we asked for.
+Cleaned Review: they never brought a salad we asked for
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 94.04%, Joy: 0.66%, Optimism: 0.73%, Sadness: 4.56%
+------------------------------------------------------------
+Original Review: This hole in the wall has great Mexican street tacos, and friendly staff.
+Cleaned Review: this hole in the wall has great mexican street tacos and friendly staff
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 6.61%, Joy: 85.63%, Optimism: 5.82%, Sadness: 1.94%
+------------------------------------------------------------
+Original Review: Took an hour to get our food only 4 tables in restaurant my food was Luke warm, Our sever was running around like he was totally overwhelmed.
+Cleaned Review: took an hour to get our food only tables in restaurant my food was luke warm our sever was running around like he was totally overwhelmed
+Sentiment: Negative
+Dominant Emotion: sadness
+Emotion Scores -> Anger: 36.75%, Joy: 6.86%, Optimism: 2.09%, Sadness: 54.31%
+------------------------------------------------------------
+Original Review: The worst was the salmon sashimi.
+Cleaned Review: the worst was the salmon sashimi
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 85.36%, Joy: 0.88%, Optimism: 0.64%, Sadness: 13.12%
+------------------------------------------------------------
+Original Review: Also there are combos like a burger, fries, and beer for 23 which is a decent deal.
+Cleaned Review: also there are combos like a burger fries and beer for which is a decent deal
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 2.69%, Joy: 91.01%, Optimism: 4.94%, Sadness: 1.36%
+------------------------------------------------------------
+Original Review: This was like the final blow!
+Cleaned Review: this was like the final blow
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 47.18%, Joy: 2.76%, Optimism: 3.6%, Sadness: 46.47%
+------------------------------------------------------------
+Original Review: I found this place by accident and I could not be happier.
+Cleaned Review: i found this place by accident and i couldnot be happier
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.29%, Joy: 92.39%, Optimism: 4.69%, Sadness: 1.64%
+------------------------------------------------------------
+Original Review: seems like a good quick place to grab a bite of some familiar pub food, but do yourself a favor and look elsewhere.
+Cleaned Review: seems like a good quick place to grab a bite of some familiar pub food but do yourself a favor and look elsewhere
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 9.06%, Joy: 46.0%, Optimism: 36.14%, Sadness: 8.8%
+------------------------------------------------------------
+Original Review: Overall, I like this place a lot.
+Cleaned Review: overall i like this place a lot
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.83%, Joy: 91.54%, Optimism: 4.68%, Sadness: 1.96%
+------------------------------------------------------------
+Original Review: The only redeeming quality of the restaurant was that it was very inexpensive.
+Cleaned Review: the only redeeming quality of the restaurant was that it was very inexpensive
+Sentiment: Negative
+Dominant Emotion: joy
+Emotion Scores -> Anger: 4.47%, Joy: 78.36%, Optimism: 12.97%, Sadness: 4.21%
+------------------------------------------------------------
+Original Review: Ample portions and good prices.
+Cleaned Review: ample portions and good prices
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 13.81%, Joy: 67.72%, Optimism: 14.25%, Sadness: 4.22%
+------------------------------------------------------------
+Original Review: Poor service, the waiter made me feel like I was stupid every time he came to the table.
+Cleaned Review: poor service the waiter made me feel like i was stupid every time he came to the table
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 93.04%, Joy: 0.96%, Optimism: 0.51%, Sadness: 5.49%
+------------------------------------------------------------
+Original Review: My first visit to Hiro was a delight!
+Cleaned Review: my first visit to hiro was a delight
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 1.07%, Joy: 95.61%, Optimism: 2.1%, Sadness: 1.22%
+------------------------------------------------------------
+Original Review: Service sucks.
+Cleaned Review: service sucks
+Sentiment: Negative
+Dominant Emotion: anger
+Emotion Scores -> Anger: 94.77%, Joy: 0.71%, Optimism: 0.42%, Sadness: 4.09%
+------------------------------------------------------------
+Original Review: The shrimp tender and moist.
+Cleaned Review: the shrimp tender and moist
+Sentiment: Positive
+Dominant Emotion: joy
+Emotion Scores -> Anger: 3.12%, Joy: 88.7%, Optimism: 3.54%, Sadness: 4.63%
+------------------------------------------------------------

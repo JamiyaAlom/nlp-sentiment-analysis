@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+transformers
+torch
+matplotlib
+wordcloud
+tqdm
+numpy
