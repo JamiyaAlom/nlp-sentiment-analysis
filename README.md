@@ -1,43 +1,50 @@
 
-# 🧠 Sentiment and Emotion Analysis on IMDB Reviews
+#  Sentiment and Emotion Analysis
 
 This project performs **sentiment classification** and **emotion detection** on movie reviews using a hybrid of traditional machine learning and transformer-based deep learning models. The purpose is to not only detect whether a review is positive or negative, but also extract the emotional context (anger, joy, optimism, sadness) of each review.
 
+Understanding user sentiment and emotion in text data is valuable for: - Product or movie feedback analysis - Customer satisfaction monitoring - Mental health insights based on language - Real-time social media analysis
+
+This project provides both **binary sentiment analysis** and **multiclass emotion tagging**, making it suitable for applications in NLP pipelines, data annotation tasks, and content moderation.
+
 ---
-
-## 🚀 Features
-
-- 🔤 **Text Preprocessing** (Lowercasing, punctuation removal, contractions, and more)
-- 🧠 **Sentiment Classification** using:
+## Features
+- **Text Preprocessing** (Lowercasing, punctuation removal, contractions, and more)
+- **Sentiment Classification** using:
   - TF-IDF + Logistic Regression (for longer texts)
   - Transformer (`distilbert-base-uncased-finetuned-sst-2-english`) pipeline (for shorter texts)
-- ❤️ **Emotion Detection** using `cardiffnlp/twitter-roberta-base-emotion`
+- **Emotion Detection** using `cardiffnlp/twitter-roberta-base-emotion`
 - 📂 **Batch Analysis** on `.txt` files containing multiple user reviews
 - 📊 **Visualizations**: Sentiment and Emotion distribution charts
 - 📄 **Output Reports**: `.csv` and `.txt` formats with full analysis
 
 ---
 
-## 📦 Installation
-
-Before running the script, install all necessary dependencies:
-
-```bash
-pip install pandas scikit-learn matplotlib tqdm transformers torch
-```
-
-Or use a `requirements.txt` if available:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🧾 Dataset
+## Dataset
 
 - **IMDB Dataset** of 50K movie reviews (Balanced dataset with 25K positive and 25K negative)
 - Used to train the Logistic Regression model
+
+##  Models Used
+
+### 1. **TF-IDF + Logistic Regression** (for Sentiment Classification)
+
+- **TF-IDF**: Converts text into numerical features by measuring word importance relative to a document and the corpus.
+- **Logistic Regression**: A simple and fast linear classifier that works well with high-dimensional sparse data like TF-IDF vectors.
+- **Why**: This combination is lightweight, fast, and effective for large-scale text classification when interpretability is important.
+
+### 2. **HuggingFace Transformer (Sentiment Pipeline)**
+
+- **Model**: `distilbert-base-uncased-finetuned-sst-2-english`
+- **Why**: For short texts (e.g., “loved it!”), TF-IDF may not have enough context. Transformers handle small text sequences better with deep contextual embeddings.
+
+### 3. **Emotion Detection Model**
+
+- **Model**: `cardiffnlp/twitter-roberta-base-emotion`
+- **Trained On**: Twitter emotion-labeled datasets
+- **Emotions Detected**: Anger, Joy, Optimism, Sadness
+- **Why**: Fine-tuned specifically for emotion detection in short, informal texts (like reviews or tweets). Excellent at recognizing tone.
+
 
 ---
 
@@ -69,14 +76,10 @@ pip install -r requirements.txt
 - Else:
   - Uses trained TF-IDF + Logistic Regression model
 
-### 5. **Interactive Input**
-- Prompts user for a review
-- Displays:
-  - Cleaned review
-  - Predicted sentiment
-  - Emotion scores and dominant emotion
+### 5. **Single Review Testing**
+ - User can input any review and get immediate prediction.
 
-### 6. **Batch Input from File**
+### 6. **Batch Analysis**
 - Accepts `.txt` file with one review per line
 - Applies full sentiment and emotion analysis
 - Saves outputs:
@@ -88,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Example Input File
+## Example Input File
 
 **reviews.txt**
 ```
@@ -99,7 +102,7 @@ Good acting, but a bit predictable.
 
 ---
 
-## 💾 Output Files
+## Output Files
 
 - **user_output_tagged.csv**: Tabular result of analysis
 - **user_output_tagged.txt**: Readable format with emotion scores
@@ -107,60 +110,32 @@ Good acting, but a bit predictable.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
-- 📊 **Bar Plot**: Average Emotion Distribution (anger, joy, optimism, sadness)
-- 📉 **Line Plot**: Sentiment Distribution (% positive vs negative)
+- 📊 **Bar Plot**: Average Emotion Distribution (anger, joy, optimism, sadness).
+![](/images/emotion_bar.png)
+- 📉 **Line Plot**: Sentiment Distribution on batch analysis(% positive vs negative).
+![](/images/line.png)
 
----
-
-## ✅ How to Run
-
-```bash
-python sentiment_emotion_analysis.py
-```
-
-Then follow the interactive prompts for either:
-- Custom review input
-- Input text file analysis
+- 📉 **Confusion Matrics**: Measure how well the classification model is performing.
+![](/images/confusion_matrix.png)
 
 ---
 
-## 📁 Project Files
+## Benefits of This Project
 
-```
-📦 sentiment_emotion_analysis
-├── IMDB_Dataset.csv                # Input training dataset
-├── sentiment_emotion_analysis.py  # Main analysis script
-├── user_output_tagged.csv         # Output from user file (CSV)
-├── user_output_tagged.txt         # Output from user file (TXT)
-└── README.md                      # This file
-```
-
----
-
-## 📌 Notes
-
-- Make sure to download the `IMDB_Dataset.csv` file beforehand.
-- Internet connection required to download pretrained transformer models.
-- GPU acceleration recommended but not required.
+- **Dual Analysis**: Both sentiment and emotion extracted for deep understanding of text.
+- ⚡ **Efficient**: Lightweight logistic regression model for long reviews + transformer fallback for short texts.
+- **Deep Learning Integrated**: Harnesses power of pretrained models without needing huge compute.
+- **Batch & Real-Time Ready**: Works on large text files and user inputs.
+- **Customizable**: You can replace models or add languages easily.
+- **Practical Use Cases**:
+  - Social media comment analysis
+  - Customer review monitoring
+  - Emotion-aware chatbots
+  - Educational feedback tools
 
 ---
-
-## 🙋 Author
-
-**Jamiya Alom**
-
-For questions, feel free to reach out or create a GitHub issue.
-
----
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ## 🔗 References
 
 - [HuggingFace Transformers](https://huggingface.co/)
