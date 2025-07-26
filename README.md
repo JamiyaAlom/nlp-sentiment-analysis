@@ -131,7 +131,7 @@ Good acting, but a bit predictable.
 ## Benefits of This Project
 
 - **Dual Analysis**: Both sentiment and emotion extracted for deep understanding of text.
-- ⚡ **Efficient**: Lightweight logistic regression model for long reviews + transformer fallback for short texts.
+- **Efficient**: Lightweight logistic regression model for long reviews + transformer fallback for short texts.
 - **Deep Learning Integrated**: Harnesses power of pretrained models without needing huge compute.
 - **Batch & Real-Time Ready**: Works on large text files and user inputs.
 - **Customizable**: You can replace models or add languages easily.
