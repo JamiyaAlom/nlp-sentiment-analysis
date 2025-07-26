@@ -14,9 +14,9 @@ This project provides both **binary sentiment analysis** and **multiclass emotio
   - TF-IDF + Logistic Regression (for longer texts)
   - Transformer (`distilbert-base-uncased-finetuned-sst-2-english`) pipeline (for shorter texts)
 - **Emotion Detection** using `cardiffnlp/twitter-roberta-base-emotion`
-- 📂 **Batch Analysis** on `.txt` files containing multiple user reviews
-- 📊 **Visualizations**: Sentiment and Emotion distribution charts
-- 📄 **Output Reports**: `.csv` and `.txt` formats with full analysis
+- **Batch Analysis** on `.txt` files containing multiple user reviews
+- **Visualizations**: Sentiment and Emotion distribution charts
+- **Output Reports**: `.csv` and `.txt` formats with full analysis
 
 ---
 
@@ -48,7 +48,7 @@ This project provides both **binary sentiment analysis** and **multiclass emotio
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### 1. **Data Loading & Cleaning**
 - Load IMDB dataset from `IMDB_Dataset.csv`
