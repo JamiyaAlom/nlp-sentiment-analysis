@@ -113,16 +113,25 @@ Good acting, but a bit predictable.
 
 ## Visualizations
 
-📊 **Bar Plot**: Average Emotion Distribution (anger, joy, optimism, sadness).
+- 📊 **Bar Plot**: Average Emotion Distribution (anger, joy, optimism, sadness).
 
-<img src="images/emotion_bar.png" alt="Emotion Plot" width="400"/>
+<div style="text-align: center;">
+  <img src="images/emotion_bar.png" alt="Emotion Plot" width="400"/>
+</div>
 
 
-📉 **Line Plot**: Sentiment Distribution on batch analysis(% positive vs negative).
-![](/images/line.png)
+- 📉 **Line Plot**: Sentiment Distribution on batch analysis(% positive vs negative).
 
-- 📉 **Confusion Matrics**: Measure how well the classification model is performing.
-![](/images/confusion_matrix.png)
+<div style="text-align: center;">
+  <img src="images/line.png" alt="Emotion Plot" width="400"/>
+</div>
+
+- 🔢 **Confusion Matrics**: Measure how well the classification model is performing.
+
+<div style="text-align: center;">
+  <img src="images/confusion_matrix.pngg" alt="Emotion Plot" width="400"/>
+</div>
+
 
 ---
 
