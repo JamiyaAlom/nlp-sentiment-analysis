@@ -104,9 +104,10 @@ Good acting, but a bit predictable.
 
 ## Output Files
 
-- **user_output_tagged.csv**: Tabular result of analysis
 - **user_output_tagged.txt**: Readable format with emotion scores
-- **Visualizations**: Shown via `matplotlib` (not saved)
+![](/images/output.png)
+- **user_output_tagged.csv**: Tabular result of analysis
+- **Visualizations**: Shown via plotting
 
 ---
 
